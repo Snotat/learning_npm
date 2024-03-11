@@ -1,0 +1,41 @@
+{
+  "name": "morfism",
+  "version": "1.0.0",
+  "description": "A frontend react component library for implementing neumorphism, claymorphism, glassmorphism etc. in a web app.",
+  "keywords": [
+    "morphism",
+    "neumorphism",
+    "claymorphism",
+    "glassmorphism",
+    "morfism",
+    "frontend",
+    "design",
+    "glass",
+    "clay",
+    "neu"
+  ],
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "Olawale/Snotat",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.5.0",
+    "@types/react": "^17.0.34",
+    "react": "^17.0.2",
+    "rollup": "^2.79.1",
+    "rollup-plugin-dts": "^4.2.3",
+    "typescript": "^4.4.4"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "tslib": "^2.6.2"
+  }
+}
